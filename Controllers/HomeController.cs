@@ -19,8 +19,38 @@ namespace HMS_Testing.Controllers
 
             return View();
         }
-       
 
+        public ActionResult About()
+        {
+            ViewBag.Title = "About";
+
+            return View();
+        }
+        public ActionResult Contact()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
+        public ActionResult Payments()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
+        public ActionResult details()
+        {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
+        public ActionResult PagenotFount()
+        {
+            // partial view 
+            ViewBag.Title = "PagenotFount";
+
+            return View();
+        }
 
     }
 }
